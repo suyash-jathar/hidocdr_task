@@ -29,10 +29,26 @@ Android Output:-
 
 Web Output:- 
 
-1. ![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/70ed6d42-e15b-4098-8314-69a675cdb4af)
+1.
 
-2.![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/318d0bc6-5f53-47dc-800d-21dcc8a5feb0)
+![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/51c27251-62b2-4a63-8fbe-512be1b39963)
 
-3.![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/65c77b44-3560-4967-9456-09d8c7ab5cd3)
 
-4.![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/bbf13f1c-6bff-4334-936a-bf155eaae866)
+2.
+
+![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/731f17f7-83f1-4e01-a2e5-be3aaeee060d)
+
+
+3.
+
+![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/3d9910fd-12a7-438f-94f6-0275379b6b63)
+
+
+4.
+
+![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/4009f473-0954-4e7d-8f20-0cd7d1b7f60e)
+
+5.
+
+![image](https://github.com/suyash-jathar/hidocdr_task/assets/106230225/3dc00fa5-116b-4d17-944c-536f72091339)
+
