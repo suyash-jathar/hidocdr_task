@@ -818,6 +818,14 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                         height: width/21.9,
                         width: width,
                         decoration: const BoxDecoration(
+                          boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey,
+                            offset: Offset(0, 4),
+                            blurRadius: 6.0, 
+                            spreadRadius: 2.0, 
+                          ),
+                        ],
                           // color: Colors.black,
                           color: Colors.white,
                           // border: Border.all(),
