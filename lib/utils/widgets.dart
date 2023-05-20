@@ -20,7 +20,7 @@ Widget newDisplay(
         children: [
           Container(
             height: 6,
-            width: 85,
+            width: 100,
             color: Colors.lightBlue,
           ),
           SizedBox(height: 15,),
@@ -113,3 +113,6 @@ Widget newDisplay(
       ),
     );
   }
+
+  
+  

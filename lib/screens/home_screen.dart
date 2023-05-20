@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter_application_1/api/fetching_data.dart';
 import 'package:flutter_application_1/responsive/responsive.dart';
 import 'package:flutter_application_1/utils/widgets.dart';
@@ -813,7 +815,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                   child: Column(
                     children: [
                       Container(
-                        height: 70,
+                        height: width/21.9,
                         width: width,
                         decoration: const BoxDecoration(
                           // color: Colors.black,
@@ -821,14 +823,14 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                           // border: Border.all(),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.only(top: 10),
+                          padding:  EdgeInsets.only(top: width/153.6),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
                                 height: 60,
                                 width: 120,
-                                margin: const EdgeInsets.only(left: 20),
+                                margin:  EdgeInsets.only(left: width/76.8),
                                 decoration: const BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
@@ -839,20 +841,20 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                   ),
                                 ),
                               ),
-                              const SizedBox(
-                                width: 300,
+                               SizedBox(
+                                width: width/5.12,
                               ),
                               Container(
-                                height: 60,
-                                width: 750,
+                                height: width/25.36,
+                                width: width/2.048,
                                 padding: const EdgeInsets.all(10),
                                 decoration: const BoxDecoration(
                                     // border: Border.all(color: Colors.black)
                                     ),
                                 child: Column(
                                   children: [
-                                    const SizedBox(
-                                      height: 15,
+                                     SizedBox(
+                                      height: width/102.4,
                                     ),
                                     Row(
                                       crossAxisAlignment:
@@ -890,35 +892,36 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                 ),
                               ),
                               Container(
-                                height: 60,
-                                width: 140,
-                                padding: const EdgeInsets.all(5),
-                                margin: const EdgeInsets.only(left: 180),
+                                height: width/25.6,
+                                width: width/10.97,
+                                padding:  EdgeInsets.all(width/219.42),
+                                margin:  EdgeInsets.only(left: width/8.533),
                                 decoration: const BoxDecoration(
                                     // border: Bo rder.all()
                                     ),
                                 child: Column(
                                   children: [
-                                    const SizedBox(
-                                      height: 7,
+                                     SizedBox(
+                                      height: width/219.42,
                                     ),
                                     Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceEvenly,
                                       crossAxisAlignment:
                                           CrossAxisAlignment.center,
-                                      children: const [
+                                      children:  [
                                         Icon(Icons.search),
                                         Icon(Icons.menu),
                                         CircleAvatar(
-                                          radius: 17,
+                                          radius: width/90,
                                           backgroundColor: Colors.black,
                                           child: CircleAvatar(
                                             backgroundColor: Colors.white,
-                                            radius: 16,
+                                            radius: width/96,
                                             child: Text(
                                               'S',
                                               style: TextStyle(
+                                                  fontSize: width/109.4,
                                                   color: Colors.black),
                                             ),
                                           ),
@@ -942,13 +945,13 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                               // dragStartBehavior: DragStartBehavior.start,
                               child: Column(
                                 children: [
-                                  const Padding(
-                                    padding: EdgeInsets.all(15.0),
+                                   Padding(
+                                    padding: EdgeInsets.all(width/102),
                                     child: Text(
-                                      'ARTICLES',
+                                      'Articles',
                                       style: TextStyle(
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.w900,
+                                        fontSize: width/80,
+                                        fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -957,10 +960,10 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                     margin:
-                                        const EdgeInsets.symmetric(horizontal: 500),
+                                         EdgeInsets.symmetric(horizontal:  width/3.072),
                                     child: Container(
                                       margin:
-                                          const EdgeInsets.symmetric(horizontal: 30),
+                                           EdgeInsets.symmetric(horizontal: width/51.2),
                                       decoration: const BoxDecoration(
                                           borderRadius: BorderRadius.all(
                                               Radius.circular(10))),
@@ -972,21 +975,21 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(15.0)
-                                                .copyWith(left: 200),
-                                            child: const Text(
+                                                .copyWith(left: width/7.68),
+                                            child:  Text(
                                               'Critcal Area',
                                               style: TextStyle(
                                                 fontWeight: FontWeight.w500,
-                                                fontSize: 14,
+                                                fontSize: width/109,
                                               ),
                                             ),
                                           ),
-                                          const Padding(
-                                            padding: EdgeInsets.all(15),
+                                           Padding(
+                                            padding: EdgeInsets.all(width/107),
                                             child: Icon(
                                               Icons.arrow_drop_down,
                                               color: Colors.grey,
-                                              size: 26,
+                                              size: width/59.07,
                                             ),
                                           ),
                                         ],
@@ -1000,15 +1003,15 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(10),
                                     ),
-                                    margin: const EdgeInsets.symmetric(
-                                        horizontal: 220, vertical: 15),
+                                    margin:  EdgeInsets.symmetric(
+                                        horizontal: width/6.98, vertical: width/102.4),
                                     child: Container(
                                       // margin: EdgeInsets.symmetric(horizontal: 30),
                                       decoration: const BoxDecoration(
                                           // color: Colors.amber,
                                           borderRadius: BorderRadius.all(
                                               Radius.circular(20))),
-                                      height: 250,
+                                      height: width/6.144,
                                       child: Row(
                                         children: [
                                           Expanded(
@@ -1018,21 +1021,24 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                     255, 224, 224, 224),
                                                 child: Stack(
                                                   children: [
-                                                    const Center(
+                                                     Center(
                                                       child: Icon(
                                                           FontAwesomeIcons
                                                               .newspaper,
                                                           color: Colors.grey,
-                                                          size: 100),
+                                                          size: width/15.36),
                                                     ),
                                                     Positioned(
                                                         right: 0,
                                                         bottom: 0,
                                                         child: Container(
-                                                          height: 58,
-                                                          width: 80,
+                                                          height: width/26.48,
+                                                          width: width/19.2,
                                                           decoration:
                                                               const BoxDecoration(
+                                                                borderRadius: BorderRadius.only(
+                                                                  topLeft: Radius.circular(30),
+                                                                ),
                                                             color: Colors
                                                                 .lightBlue,
                                                           ),
@@ -1040,14 +1046,14 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                             mainAxisAlignment:
                                                                 MainAxisAlignment
                                                                     .center,
-                                                            children: const [
+                                                            children:  [
                                                               Text(
                                                                 'Points',
                                                                 style: TextStyle(
                                                                     color: Colors
                                                                         .white,
                                                                     fontSize:
-                                                                        15,
+                                                                        width/102.4,
                                                                     fontWeight:
                                                                         FontWeight
                                                                             .w600),
@@ -1061,7 +1067,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                                     color: Colors
                                                                         .white,
                                                                     fontSize:
-                                                                        15,
+                                                                        width/102.4,
                                                                     fontWeight:
                                                                         FontWeight
                                                                             .w600),
@@ -1078,7 +1084,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: [
-                                                const Padding(
+                                                 Padding(
                                                   padding:
                                                       EdgeInsets.all(15.0),
                                                   child: Text(
@@ -1086,14 +1092,14 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                     style: TextStyle(
                                                       fontWeight:
                                                           FontWeight.bold,
-                                                      fontSize: 16,
+                                                      fontSize: width/96,
                                                     ),
                                                   ),
                                                 ),
                                                 Padding(
                                                   padding:
-                                                      const EdgeInsets.symmetric(
-                                                              horizontal: 15)
+                                                       EdgeInsets.symmetric(
+                                                              horizontal: width/102.4)
                                                           .copyWith(
                                                               bottom: 5),
                                                   child: const Text(
@@ -1107,16 +1113,16 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                     mainAxisAlignment:
                                                         MainAxisAlignment
                                                             .spaceEvenly,
-                                                    children: const [
+                                                    children:  [
                                                       Padding(
                                                         padding:
                                                             EdgeInsets
                                                                     .only(
-                                                                left: 15),
+                                                                left: width/102.4),
                                                         child: Text(
                                                           'Read full article to earn points',
                                                           style: TextStyle(
-                                                              fontSize: 13,
+                                                              fontSize: width/118.15,
                                                               color:
                                                                   Colors.blue,
                                                               decoration:
@@ -1131,13 +1137,13 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                         padding:
                                                             EdgeInsets
                                                                     .only(
-                                                                left: 15),
+                                                                left: width/102.4),
                                                         child: Text(
                                                           'Published Date : 19 May 2023',
                                                           style: TextStyle(
                                                             color:
                                                                 Colors.grey,
-                                                            fontSize: 13,
+                                                            fontSize: width/118.4,
                                                           ),
                                                         ),
                                                       ),
@@ -1154,7 +1160,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                   // Bullentin Section
                                   Container(
                                     margin:
-                                        const EdgeInsets.symmetric(horizontal: 220),
+                                         EdgeInsets.symmetric(horizontal: width/6.98),
                                     child: Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
@@ -1162,8 +1168,8 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Container(
-                                          height: 370,
-                                          width: 500,
+                                          height: width/4.15,
+                                          width:  width/3.072,
                                           decoration: const BoxDecoration(
                                               // border: Border.all()
                                               ),
@@ -1226,8 +1232,8 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                               ]),
                                         ),
                                         Container(
-                                            height: 700,
-                                            width: 500,
+                                            height: width/2.19,
+                                            width:  width/3.072,
                                             margin: const EdgeInsets.all(15),
                                             decoration: BoxDecoration(
                                               color: Colors.blue[50],
@@ -1321,8 +1327,8 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
 
                                   // Articles in Row
                                   Container(
-                                    margin: const EdgeInsets.symmetric(
-                                        horizontal: 220, vertical: 20),
+                                    margin:  EdgeInsets.symmetric(
+                                        horizontal: width/10, vertical: 20),
                                     child: Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceEvenly,
@@ -1330,23 +1336,27 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Container(
-                                            height: 190,
+                                            height: 210,
                                             width: 320,
+                                            margin: EdgeInsets.only(left:60),
                                             decoration: BoxDecoration(
                                                 border: Border.all()),
                                             child: Padding(
                                               padding:
-                                                  const EdgeInsets.all(8.0),
+                                                  const EdgeInsets.all(0.0),
                                               child: Column(
                                                 children: [
-                                                  const Text(
-                                                    'Latest Articles',
-                                                    style: TextStyle(
-                                                      fontSize: 18,
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                    ),
-                                                  ),
+                                                   Padding(
+                                                     padding: const EdgeInsets.all(15.0),
+                                                     child: Text(
+                                                      'Latest Articles',
+                                                      style: TextStyle(
+                                                        fontSize: width/85.33,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                                                                     ),
+                                                   ),
                                                   const SizedBox(
                                                     height: 10,
                                                   ),
@@ -1394,19 +1404,23 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                         Container(
                                           height: 300,
                                           width: 320,
+                                          margin: EdgeInsets.only(left:40),
                                           decoration: BoxDecoration(
                                               border: Border.all()),
                                           child: Padding(
-                                            padding: const EdgeInsets.all(8.0),
+                                            padding: const EdgeInsets.all(0.0),
                                             child: Column(
                                               children: [
-                                                const Text(
-                                                  'Explore more in Articles',
-                                                  style: TextStyle(
-                                                    fontSize: 18,
-                                                    fontWeight: FontWeight.bold,
-                                                  ),
-                                                ),
+                                                 Padding(
+                                                   padding: const EdgeInsets.all(15.0),
+                                                   child: Text(
+                                                    'Explore more in Articles',
+                                                    style: TextStyle(
+                                                      fontSize: width/85.33,
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                                                                                 ),
+                                                 ),
                                                 const SizedBox(
                                                   height: 10,
                                                 ),
@@ -1436,13 +1450,13 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                                           index]);
                                                             },
                                                           );
-                                                        } else if (snapShot
-                                                            .hasError) {
+                                                        } else if (snapShot.hasError) {
                                                           return Text(
                                                               'Error ${snapShot.hasError}');
                                                         }
                                                         return const CircularProgressIndicator();
-                                                      }),
+                                                      },
+                                                    ),
                                                 ),
                                               ],
                                             ),
@@ -1451,23 +1465,26 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                         Column(
                                           children: [
                                             Container(
-                                                height: 190,
+                                                height: 210,
                                                 width: 350,
                                                 decoration: BoxDecoration(
                                                     border: Border.all()),
                                                 child: Padding(
                                                   padding:
-                                                      const EdgeInsets.all(8.0),
+                                                      const EdgeInsets.all(0.0),
                                                   child: Column(
                                                     children: [
-                                                      const Text(
-                                                        'Latest Articles',
-                                                        style: TextStyle(
-                                                          fontSize: 18,
-                                                          fontWeight:
-                                                              FontWeight.bold,
-                                                        ),
-                                                      ),
+                                                       Padding(
+                                                         padding: const EdgeInsets.all(15.0),
+                                                         child: Text(
+                                                          'Latest Articles',
+                                                          style: TextStyle(
+                                                            fontSize: width/85.33,
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                          ),
+                                                                                                             ),
+                                                       ),
                                                       const SizedBox(
                                                         height: 10,
                                                       ),
@@ -1512,7 +1529,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                             Container(
                                               margin: const EdgeInsets.symmetric(
                                                   horizontal: 40, vertical: 25),
-                                              width: 320,
+                                              width: 350,
                                               color: Colors.blue[400],
                                               child: const Center(
                                                 child: Padding(
@@ -1551,8 +1568,8 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                         ),
 
                                         Container(
-                                          margin: const EdgeInsets.symmetric(
-                                              horizontal: 200),
+                                          margin:  EdgeInsets.symmetric(
+                                              horizontal: width/7.68),
                                           child: Row(
                                             mainAxisAlignment:
                                                 MainAxisAlignment.spaceBetween,
@@ -1585,7 +1602,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                             crossAxisAlignment:
                                                                 CrossAxisAlignment
                                                                     .start,
-                                                            children: const [
+                                                            children:  [
                                                               SizedBox(
                                                                 height: 10,
                                                               ),
@@ -1593,7 +1610,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                                 'News',
                                                                 style:
                                                                     TextStyle(
-                                                                  fontSize: 18,
+                                                                  fontSize: width/85.33,
                                                                   fontWeight:
                                                                       FontWeight
                                                                           .bold,
@@ -1641,19 +1658,19 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                 margin: const EdgeInsets.symmetric(
                                                   horizontal: 15,
                                                 ),
-                                                height: 162,
-                                                width: 370,
+                                                height: width/9.481,
+                                                width: width/4.15,
                                                 decoration: BoxDecoration(
                                                     border: Border.all(
                                                         color: Colors.black)),
                                                 child: Column(
                                                   children: [
-                                                    const SizedBox(
-                                                      height: 15,
+                                                     SizedBox(
+                                                      height: width/102.4,
                                                     ),
                                                     ListTile(
                                                       leading: CircleAvatar(
-                                                        radius: 25,
+                                                        radius: width/61.44,
                                                         backgroundColor: Colors
                                                             .lightBlue[50],
                                                         child: const Center(
@@ -1663,14 +1680,14 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                                 color: Colors
                                                                     .blue)),
                                                       ),
-                                                      title: Row(children: const [
+                                                      title: Row(children:  [
                                                         Text(
                                                           'Quizzes :',
                                                           style: TextStyle(
                                                               fontWeight:
                                                                   FontWeight
                                                                       .bold,
-                                                              fontSize: 14),
+                                                              fontSize: width/109.4),
                                                         ),
                                                         SizedBox(
                                                           width: 5,
@@ -1678,7 +1695,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                         Text(
                                                           'Participate & Win Exiting Prizes ',
                                                           style: TextStyle(
-                                                              fontSize: 13),
+                                                              fontSize: width/118),
                                                         )
                                                       ]),
                                                     ),
@@ -1686,15 +1703,15 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                       height: 7,
                                                     ),
                                                     Container(
-                                                        margin: const EdgeInsets
+                                                        margin:  EdgeInsets
                                                             .symmetric(
-                                                                horizontal: 15),
-                                                        child: const Divider(
-                                                            height: 10,
+                                                                horizontal: width/102.4),
+                                                        child:  Divider(
+                                                            height: width/153.6,
                                                             color: Colors.grey,
                                                             thickness: 1)),
-                                                    const SizedBox(
-                                                      height: 7,
+                                                     SizedBox(
+                                                      height: width/219.4,
                                                     ),
                                                     ListTile(
                                                       leading: CircleAvatar(
@@ -1713,14 +1730,14 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                           crossAxisAlignment:
                                                               CrossAxisAlignment
                                                                   .start,
-                                                          children: const [
+                                                          children:  [
                                                             Text(
                                                               'Mediacal ',
                                                               style: TextStyle(
                                                                   fontWeight:
                                                                       FontWeight
                                                                           .bold,
-                                                                  fontSize: 14),
+                                                                  fontSize: width/109.4),
                                                             ),
                                                             Text(
                                                               'Calculators :',
@@ -1728,7 +1745,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                                   fontWeight:
                                                                       FontWeight
                                                                           .bold,
-                                                                  fontSize: 14),
+                                                                  fontSize: width/109.4),
                                                             ),
                                                           ],
                                                         ),
@@ -1736,34 +1753,34 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                                           width: 5,
                                                         ),
                                                         Column(
-                                                          children: const [
+                                                          children: [
                                                             Text(
                                                               'Get Acess to 800+ Evidence ',
                                                               style: TextStyle(
-                                                                  fontSize: 13),
+                                                                  fontSize: width/109.4),
                                                             ),
                                                             Text(
                                                               'Based Calculators',
                                                               style: TextStyle(
-                                                                  fontSize: 13),
+                                                                  fontSize: width/109.4),
                                                             ),
                                                           ],
                                                         )
                                                       ]),
                                                     ),
-                                                    const SizedBox(
-                                                      height: 7,
+                                                     SizedBox(
+                                                      height: width/219,
                                                     ),
                                                     Container(
-                                                        margin: const EdgeInsets
+                                                        margin:  EdgeInsets
                                                             .symmetric(
-                                                                horizontal: 15),
-                                                        child: const Divider(
-                                                            height: 10,
+                                                                horizontal: width/102.4),
+                                                        child:  Divider(
+                                                            height: width/153.6,
                                                             color: Colors.grey,
                                                             thickness: 1)),
-                                                    const SizedBox(
-                                                      height: 7,
+                                                     SizedBox(
+                                                      height: width/219,
                                                     ),
                                                   ],
                                                 ),
@@ -1772,16 +1789,16 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                           ),
                                         ),
                                         Container(
-                                  margin: const EdgeInsets.symmetric(
-                                      horizontal: 220, vertical: 15),
+                                  margin:  EdgeInsets.symmetric(
+                                      horizontal: width/6.98, vertical: width/102.4),
                                   width: width,
                                   decoration: BoxDecoration(
                                     color: Colors.blue.withOpacity(0.4),
                                   ),
-                                  height: 70,
+                                  height: width/21.94,
                                   child: Center(
                                     child: Padding(
-                                      padding: const EdgeInsets.all(15.0),
+                                      padding:  EdgeInsets.all(width/102.4),
                                       child: Row(
                                         mainAxisAlignment:
                                             MainAxisAlignment.spaceBetween,
@@ -1792,31 +1809,31 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                             child: Row(
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
-                                              children: const [
+                                              children:  [
                                                 Text(
                                                   'Social Network for doctors -  ',
                                                   style: TextStyle(
                                                       fontWeight: FontWeight.bold,
-                                                      fontSize: 14),
+                                                      fontSize: width/109.4),
                                                 ),
                                                 Text(
                                                   'A Special Feature on Hidoc Dr.',
                                                   style: TextStyle(
                                                       fontWeight: FontWeight.bold,
-                                                      fontSize: 14),
+                                                      fontSize: width/109.4),
                                                 ),
                                               ],
                                             ),
                                           ),
                                           Container(
-                                            margin: const EdgeInsets.only(right: 15),
+                                            margin:  EdgeInsets.only(right: width/102.4),
                                             decoration: BoxDecoration(
                                                 color: Colors.blue,
                                                 borderRadius:
                                                     BorderRadius.circular(5)),
                                             child: Padding(
                                               padding:
-                                                  const EdgeInsets.all(10.0).copyWith(left: 25,right: 25),
+                                                  const EdgeInsets.all(10.0).copyWith(left: width/61.44,right: width/61.44),
                                               child: const Text('Visit',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),),
                                             ),
                                           )
@@ -1828,7 +1845,184 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                       ],
                                     ),
                                   ),
-                                  //
+
+                                  
+                                  // Company Details
+                                  Container(
+                                    color: Color.fromARGB(255, 9, 22, 52),
+                                    height: 250,
+                                    width: width,
+                                    child:Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        Container(
+                                          height: 170,
+                                          width:350,
+                                          // color: Colors.white,
+                                          margin:EdgeInsets.only(bottom:60),
+                                          child:Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                            children: [
+                                              Container(
+                                                height:80,
+                                                width: 210,
+                                                margin:EdgeInsets.only(left:25,),
+                                                decoration: BoxDecoration(
+                                                  // border: Border.all(),
+                                                  image: DecorationImage(image: AssetImage('assets/white_logo.png',))
+                                                ),
+                                              ),
+                                              Container(
+                                                height: 50,
+                                                width: 250,
+                                                margin:EdgeInsets.only(left:25),
+                                                child: Text('#1 Medial App for Doctors in India with 800K Monthly Users',maxLines: 2,style:TextStyle(fontWeight:FontWeight.w600,color:Colors.white))),
+                                              Container(
+                                                margin:EdgeInsets.only(left:25),
+                                                child: Row(
+                                                  children: [
+                                                    CircleAvatar(
+                                                      radius:19,
+                                                      backgroundColor: Colors.white,
+                                                      child: CircleAvatar(
+                                                        radius:18,
+                                                      backgroundColor: Color.fromARGB(255, 9, 22, 52),
+                                                        child:Icon(FontAwesomeIcons.facebookF,color: Colors.white,size:17)
+                                                      ),
+                                                    ),
+                                                    SizedBox(width: 10,),
+                                                    CircleAvatar(
+                                                      radius:19,
+                                                      backgroundColor: Colors.white,
+                                                      child: CircleAvatar(
+                                                        radius:18,
+                                                      backgroundColor: Color.fromARGB(255, 9, 22, 52),
+                                                        child:Icon(FontAwesomeIcons.linkedinIn,color: Colors.white,size:17)
+                                                      ),
+                                                    ),
+                                                    SizedBox(width: 10,),
+                                                    CircleAvatar(
+                                                      radius:19,
+                                                      backgroundColor: Colors.white,
+                                                      child: CircleAvatar(
+                                                        radius:18,
+                                                      backgroundColor: Color.fromARGB(255, 9, 22, 52),
+                                                        child:Icon(FontAwesomeIcons.instagram,color: Colors.white,size:17)
+                                                      ),
+                                                    ),
+                                                    SizedBox(width: 10,),
+                                                    CircleAvatar(
+                                                      radius:19,
+                                                      backgroundColor: Colors.white,
+                                                      child: CircleAvatar(
+                                                        radius:18,
+                                                      backgroundColor: Color.fromARGB(255, 9, 22, 52),
+                                                        child:Icon(FontAwesomeIcons.youtube,color: Colors.white,size:17)
+                                                      ),
+                                                    ),
+
+
+                                                  ],
+                                                ),),
+
+                                            ],
+                                          )
+                                        ),
+                                        Container(
+                                          height: 210,
+                                          width: 400,
+                                          // color:Colors.white,
+                                          child:Column(
+                                            mainAxisAlignment:MainAxisAlignment.spaceEvenly,
+                                            crossAxisAlignment:CrossAxisAlignment.start,
+                                            children:[
+                                              Text('REACH US',style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold),),
+                                              Text('Please Contact below details for any other \ninformation',style:TextStyle(color:Colors.white,),),
+                                              RichText(
+                                                text: TextSpan(
+                                                  text:'Email',
+                                                style:TextStyle(color:Colors.blue),
+                                                children: [
+                                                  TextSpan(
+                                                    text:'\ninfo@hidoc.co',
+                                                    style:TextStyle(color:Colors.white)
+                                                  ),
+                                                ]
+                                                ),
+                                                
+                                              ),
+                                              RichText(
+                                                text: TextSpan(
+                                                  text:'Address',
+                                                style:TextStyle(color:Colors.blue),
+                                                children: [
+                                                  TextSpan(
+                                                    text:'\nInfedis Infotech LLP.Office 108, Suyog Center, \nGultekdi, Pune- 411 037 .\nToll Free : 1800-202-5091',
+                                                    style:TextStyle(color:Colors.white)
+                                                  ),
+                                                ]
+                                                ),
+                                                
+                                              ),
+                                            ]
+                                          )
+                                        ),
+                                        Container(
+                                          height: 210,
+                                          width: 700,
+                                          // color:Colors.white,
+                                          child:Column(
+                                            mainAxisAlignment:MainAxisAlignment.spaceBetween,
+                                            crossAxisAlignment:CrossAxisAlignment.start,
+                                            children:[
+                                              Text('HIDOC DR. FEATURES',style:TextStyle(fontWeight:FontWeight.bold,fontSize:19,color:Colors.white)),
+                                              Container(
+                                                  // margin:EdgeInsets.only(top:10),
+                                                  width:650,
+                                                  height:170,
+                                                  decoration: BoxDecoration(
+                                                    // border: Border.all()
+                                                  ),
+                                                  child:Image.asset('assets/hidoc_features.jpg',fit: BoxFit.fill,)
+                                                ),
+                                            
+
+                                            ]
+                                          ),
+                                        ),
+                                      ],
+                                    )
+
+
+                                  ),
+
+                                  // Footer
+                                  Container(
+                                    width: width,
+                                    height: 60,
+                                    color:Colors.grey[350],
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        RichText(
+                                          text: TextSpan(
+                                            text: '© Copyright 2022 ',
+                                            style: TextStyle(),
+                                            children: [
+                                              TextSpan(text: 'Infedis Infotech LLP.',
+                                              style: TextStyle(fontWeight: FontWeight.bold)
+                                              )
+                                            ]
+                                          ),
+                                        ),
+                                        Text('Terms & Conditions | Privacy Policy')
+                                      ],
+                                    ),
+                                  )
+
                                   
                                 ],
                               ),),

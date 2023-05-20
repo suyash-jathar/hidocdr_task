@@ -53,6 +53,8 @@ flutter:
     - assets/background_stack.png
     - assets/home_icon1.png
     - assets/logo.png
+    - assets/white_logo.png
+    - assets/hidoc_features.jpg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
