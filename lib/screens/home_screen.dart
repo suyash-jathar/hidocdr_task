@@ -968,7 +968,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                     margin:
-                                         EdgeInsets.symmetric(horizontal:  width/3.072),
+                                         EdgeInsets.symmetric(horizontal:  width/3.1),
                                     child: Container(
                                       margin:
                                            EdgeInsets.symmetric(horizontal: width/51.2),
@@ -1858,7 +1858,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                   // Company Details
                                   Container(
                                     color: Color.fromARGB(255, 9, 22, 52),
-                                    height: 250,
+                                    height: 300,
                                     width: width,
                                     child:Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -1978,7 +1978,7 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                           )
                                         ),
                                         Container(
-                                          height: 210,
+                                          height: 230,
                                           width: 700,
                                           // color:Colors.white,
                                           child:Column(
@@ -1988,8 +1988,8 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
                                               Text('HIDOC DR. FEATURES',style:TextStyle(fontWeight:FontWeight.bold,fontSize:19,color:Colors.white)),
                                               Container(
                                                   // margin:EdgeInsets.only(top:10),
-                                                  width:650,
-                                                  height:170,
+                                                  width:600,
+                                                  height:190,
                                                   decoration: BoxDecoration(
                                                     // border: Border.all()
                                                   ),
