@@ -4,7 +4,6 @@ class ResponsiveLayout extends StatelessWidget {
   final Widget desktopBody;
 
   ResponsiveLayout({required this.mobileBody,required this.desktopBody});
-
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;

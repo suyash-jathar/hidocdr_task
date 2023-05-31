@@ -94,7 +94,6 @@ Widget newDisplay(
       ),
     );
   }
-
   Widget exploreArticleDisplay(
     {
       required ExploreArticle article,

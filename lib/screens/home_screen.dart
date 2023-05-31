@@ -34,24 +34,6 @@ class _HiDocDrAppState extends State<HiDocDrApp> {
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
-          // SliverAppBar(
-          //   iconTheme: IconThemeData(
-          //     color: Colors.black,
-          //   ),
-          //   backgroundColor: Colors.red,
-          //   pinned: true,
-          //   expandedHeight: 200,
-          //   flexibleSpace: FlexibleSpaceBar(
-          //     title: Text(
-          //       'Portfolio',
-          //       style: TextStyle(color: Colors.black),
-          //     ),
-          //     background: Image.network(
-          //       'https://himdeve.eu/wp-content/uploads/2015/05/himdeve_labrador_with_cute_woman_model.jpg',
-          //       fit: BoxFit.cover,
-          //     ),
-          //   ),
-          // ),
           SliverFillRemaining(
             child: ResponsiveLayout(
               // Mobile Body

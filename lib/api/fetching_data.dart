@@ -63,7 +63,6 @@ class ApiFetcher {
       articleDescription: item['articleDescription'],
     )).toList();
   }
-
   static Future<http.Response> _fetchData(String endpoint) async {
     final apiUrl = '$_baseUrl/$endpoint';
     final response = await http.post(Uri.parse(apiUrl), body: _body);

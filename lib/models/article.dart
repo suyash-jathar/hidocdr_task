@@ -10,7 +10,6 @@ class Article {
   Null? articleUniqueId;
   int? articleType;
   String? createdAt;
-
   Article(
       {this.id,
       this.articleTitle,
