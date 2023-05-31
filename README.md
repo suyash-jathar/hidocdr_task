@@ -1,6 +1,6 @@
 # hi_doc_dr_task
 
-A new Flutter project.
+A new Flutter project of HiDocDr Task(Assignment) .
 
 ## Getting Started
 
